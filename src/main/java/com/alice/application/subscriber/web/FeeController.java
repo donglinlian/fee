@@ -58,8 +58,8 @@ public class FeeController {
 			String feeName, String num, String direction, String fromName,
 			String notice) {
 		try {
-			logger.info("modify in the github,I am so excited!")
-			logger.info("/basic/add:post paramaters theme:"+theme+", feeName:"+feeName+", num:"+num+", direction:"+direction+", fromName:"+fromName+", notice:"+notice);
+			logger.info("modify in the github,I am so excited!");
+			logger.info("/basic/add:post paramaters is theme:"+theme+", feeName:"+feeName+", num:"+num+", direction:"+direction+", fromName:"+fromName+", notice:"+notice);
 			feeInfoService.add(theme,feeName,num,direction,fromName,notice);
 		} catch (Exception e) {
 			e.printStackTrace();
