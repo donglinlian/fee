@@ -73,7 +73,7 @@ td {
 		<table id="netable" class="tbl">
 			<thead>
 				<tr>
-					<th class="text-center" style="width: 20%;">费用总计</th>
+					<th class="text-center" style="width: 20%;">费用流水总计</th>
 					
 				</tr>
 			</thead>
